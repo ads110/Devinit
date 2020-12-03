@@ -122,14 +122,14 @@
       "comments": "Installs a package using vcpkg."
     },
     {
-      "comments": "Enables the .NET Framework 3.5 feature.",
+      "comments": "Enables the .NET Framework 4.5 feature.",
       "tool": "windowsfeature-enable",
-      "input": "net-framework-45-features"
+      "input": "NetFx4Extended-ASPNET45"
     },
     {
       "comments": "Disables the IIS Asp.Net 4.5 feature.",
       "tool": "windowsfeature-disable",
-      "input": "IIS-ASPNET45"
+      "input": "IIS-WindowsAuthentication"
     },
     {
       "comments": "Lists the state of all Windows features.",
